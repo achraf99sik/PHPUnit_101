@@ -1,8 +1,6 @@
 <?php
-
 use PHPUnit\Framework\TestCase;
-use App\controllers\TaskController;
-use App\Models\TaskModel;
+use App\Model\TaskModel;  // Use the correct namespace
 
 class TaskControllerTest extends TestCase {
     public function testIndex() {

@@ -2,7 +2,7 @@
 
 namespace App\controllers;
 
-use App\Models\TaskModel;
+use App\Model\TaskModel;
 
 class TaskController {
     private TaskModel $taskModel;

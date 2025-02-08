@@ -1,8 +1,9 @@
-// tests/Model/TaskModelTest.php
 <?php
 
 use PHPUnit\Framework\TestCase;
-use App\Models\TaskModel;
+use App\Model\TaskModel;  // Use the correct namespace
+use PDO;
+use PDOStatement;
 
 class TaskModelTest extends TestCase {
     public function testGetAllTasks() {
